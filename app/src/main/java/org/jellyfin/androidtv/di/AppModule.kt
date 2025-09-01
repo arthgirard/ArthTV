@@ -82,7 +82,7 @@ val appModule = module {
 			context = androidContext()
 
 			// Add client info
-			clientInfo = ClientInfo("Dune Android TV", BuildConfig.VERSION_NAME)
+			clientInfo = ClientInfo("ArthTV Android TV", BuildConfig.VERSION_NAME)
 			deviceInfo = get(defaultDeviceInfo)
 
 			// Change server version
@@ -116,14 +116,14 @@ val appModule = module {
 		ImageLoader.Builder(context).apply {
 			serviceLoaderEnabled(false)
 			logger(CoilTimberLogger(if (BuildConfig.DEBUG) Logger.Level.Warn else Logger.Level.Error))
-			
+
 			// Configure memory cache
 			memoryCache {
 				coil3.memory.MemoryCache.Builder()
 					.maxSizeBytes(memoryCacheSize)
 					.build()
 			}
-			
+
 			// Set disk cache
 			diskCache(diskCache)
 

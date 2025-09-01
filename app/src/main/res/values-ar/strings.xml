@@ -124,12 +124,12 @@
     <string name="settings_title">الإعدادات</string>
     <string name="pref_max_bitrate_title">أقصى معدل بت التدفق</string>
     <string name="pref_playback">التشغيل</string>
-    
+
     <!-- إعدادات اللغة -->
     <string name="pref_language">لغة التطبيق</string>
     <string name="pref_language_header">إعدادات اللغة</string>
     <string name="pref_language_summary">تغيير اللغة المستخدمة في التطبيق</string>
-    
+
     <string name="byletter_letters">أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي</string>
     <string name="btn_cancel">إلغاء</string>
     <string name="loading">جاري التحميل…</string>
@@ -281,10 +281,10 @@
     <string name="no_user_warning">لم نستطع العثور على أي مستخدم!
 \nأضف مستخدم جديد بالضغط على زر \"إضافة مستخدم\".</string>
     <string name="welcome_content">إتصل بخادمك للبدأ.</string>
-    <string name="welcome_title">مرحبا الى DUNE!</string>
+    <string name="welcome_title">مرحبا الى ArthTV!</string>
     <string name="saved_servers">الخوادم المحفوظة</string>
     <string name="press_to_close">إظغط للغلق</string>
-    <string name="no_network_permissions">DUNE يحتاج إلى صلاحيات الشبكة للعمل</string>
+    <string name="no_network_permissions">ArthTV يحتاج إلى صلاحيات الشبكة للعمل</string>
     <string name="lbl_switch_user">تغيير المستخدم</string>
     <string name="user_picker_last_user_summary">إظهار آخر مستخدم نشط</string>
     <string name="user_picker_disable_summary">إظهار شاشة تسجيل الدخول دائما</string>

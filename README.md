@@ -1,20 +1,20 @@
 
 <p align="center">
-  <img src="https://files.catbox.moe/jqk9rl.jpg" alt="DUNE" width="100%">
+  <img src="https://files.catbox.moe/jqk9rl.jpg" alt="ArthTV" width="100%">
 </p>
 
-<h1 align="center">DUNE - Jellyfin Android TV Client</h1> 
+<h1 align="center">ArthTV - Jellyfin Android TV Client</h1> 
 
 <div align="center" style="display: flex; gap: 5px; justify-content: center;">
   <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"><img src="https://img.shields.io/badge/License-GPL_v2-blue?labelColor=555555&style=for-the-badge" alt="License: GPL v2"></a>
-  <a href="https://github.com/Sam42a/DUNE/releases/latest"><img src="https://img.shields.io/github/v/release/Sam42a/DUNE?label=Latest%20Release&labelColor=555555&style=for-the-badge" alt="Latest Release"></a>
-  <a href="https://github.com/Sam42a/DUNE/stargazers"><img src="https://img.shields.io/github/stars/Sam42a/DUNE?label=Stars&labelColor=555555&style=for-the-badge" alt="GitHub Stars"></a>
+  <a href="https://github.com/Sam42a/ArthTV/releases/latest"><img src="https://img.shields.io/github/v/release/Sam42a/ArthTV?label=Latest%20Release&labelColor=555555&style=for-the-badge" alt="Latest Release"></a>
+  <a href="https://github.com/Sam42a/ArthTV/stargazers"><img src="https://img.shields.io/github/stars/Sam42a/ArthTV?label=Stars&labelColor=555555&style=for-the-badge" alt="GitHub Stars"></a>
   <a href="https://coff.ee/sam42"><img src="https://img.shields.io/badge/Support_Me-Buy_a_Coffee-orange?labelColor=555555&style=for-the-badge" alt="Support Me"></a>
 </div>
 
 <p align="center">
   <br>
-  <img src="https://i.imgur.com/x38f0Tw.png" alt="DUNE Screenshot" width="800">
+  <img src="https://i.imgur.com/x38f0Tw.png" alt="ArthTV Screenshot" width="800">
 </p>
 
 > **Copyright © 2025 Sam42a**  
@@ -22,7 +22,7 @@
 
 ## About
 
-**DUNE** is a modified version of the official [Jellyfin](https://jellyfin.org/) Android TV client with enhanced UI/UX and additional customization options.
+**ArthTV** is a modified version of the official [Jellyfin](https://jellyfin.org/) Android TV client with enhanced UI/UX and additional customization options.
 
 > **Note**: This is an unofficial fork not affiliated with the Jellyfin project. The official Jellyfin Android TV client can be found at [jellyfin/jellyfin-androidtv](https://github.com/jellyfin/jellyfin-androidtv).
 
@@ -69,8 +69,8 @@ This project uses the same translation system as the original Jellyfin Android T
 ### Build Instructions
 ```bash
 # Clone repository
-git clone [https://github.com/Sam42a/DUNE.git](https://github.com/Sam42a/DUNE.git)
-cd DUNE-main
+git clone [https://github.com/Sam42a/ArthTV.git](https://github.com/Sam42a/ArthTV.git)
+cd ArthTV-main
 
 # Build standard version
 ./gradlew assembleStandardRelease
@@ -86,7 +86,7 @@ cd DUNE-main
 # Install enhanced release
 ./gradlew installEnhancedRelease
 
-**Note:** The enhanced version uses package ID `Dune.enhanced.tv` which allows it to be installed alongside the original Jellyfin app.
+**Note:** The enhanced version uses package ID `ArthTV.enhanced.tv` which allows it to be installed alongside the original Jellyfin app.
 
 
 ```

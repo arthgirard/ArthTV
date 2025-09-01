@@ -21,7 +21,7 @@ fun OptionsScreen.aboutCategory() = category {
     setTitle(R.string.pref_about_title)
 
     link {
-        title = "Dune app version"
+        title = "ArthTV app version"
         content = CURRENT_VERSION
         icon = R.drawable.dune_icon
     }

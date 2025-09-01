@@ -21,10 +21,10 @@ android {
 		targetSdk = libs.versions.android.targetSdk.get().toInt()
 
 		// Release version
-		applicationId = "dune.enhanced.tv"
+		applicationId = "arthtv.enhanced.tv"
 		versionName = project.getVersionName()
 		versionCode = getVersionCode(versionName!!)
-		setProperty("archivesBaseName", "Dune.androidtv-${versionName}")
+		setProperty("archivesBaseName", "ArthTV.androidtv-${versionName}")
 	}
 
 	buildFeatures {
@@ -86,13 +86,13 @@ android {
 
 		create("enhanced") {
 			dimension = "variant"
-			applicationId = "Dune.enhanced.tv"
+			applicationId = "ArthTV.enhanced.tv"
 
 			// Set specific version name for enhanced variant
 			versionName = "0.0.8"
 
 			// Set app name for the enhanced version
-			resValue("string", "app_name_release", "DUNE")
+			resValue("string", "app_name_release", "ArthTV")
 
 			// Add required string resources that are referenced in XML files
 			resValue("string", "app_id", applicationId!!)
@@ -100,7 +100,7 @@ android {
 			resValue("string", "app_search_suggest_intent_data", "content://${applicationId}.content/intent")
 
 			// Set custom APK filename
-			setProperty("archivesBaseName", "Dune.androidtv-0.0.8")
+			setProperty("archivesBaseName", "ArthTV.androidtv-0.0.8")
 		}
 	}
 
@@ -129,14 +129,14 @@ val versionTxt by tasks.registering {
 // Simple task to build the enhanced version
 tasks.register("buildEnhanced") {
 	group = "build"
-	description = "Builds the enhanced version with package ID: Dune.enhanced.tv"
+	description = "Builds the enhanced version with package ID: ArthTV.enhanced.tv"
 	dependsOn("assembleEnhancedRelease")
 	doLast {
 		println("\nBuilding Enhanced version with:")
-		println("Package ID: Dune.enhanced.tv")
+		println("Package ID: ArthTV.enhanced.tv")
 		println("Version: 0.0.8")
-		println("App Name: DUNE")
-		println("Filename: Dune.androidtv-0.0.8.apk")
+		println("App Name: ArthTV")
+		println("Filename: ArthTV.androidtv-0.0.8.apk")
 		println("The APK will be available in: app/build/outputs/apk/enhanced/release/")
 	}
 }
